@@ -1,0 +1,88 @@
+/* Custom Modern Theme for SkillConnect */
+:root {
+    --primary-blue: #0d6efd;
+    --hover-blue: #0a58ca;
+    --light-bg: #f8f9fa;
+    --card-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    --hover-shadow: 0 15px 35px rgba(13, 110, 253, 0.15);
+}
+
+body {
+    font-family: 'Inter', 'Segoe UI', Roboto, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+/* Enhanced Navbar */
+.navbar {
+    padding: 1.2rem 0 !important; /* Increased height */
+    font-size: 1.1rem; /* Increased text size */
+}
+
+.navbar-brand {
+    font-size: 1.6rem !important;
+    font-weight: 800 !important;
+    letter-spacing: -0.5px;
+}
+
+/* Navbar Active Link Styling */
+.nav-link {
+    font-weight: 500;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+    opacity: 0.8;
+}
+
+.nav-link:hover {
+    opacity: 1;
+    transform: translateY(-1px);
+}
+
+.nav-link.active {
+    opacity: 1 !important;
+    color: #fff !important;
+    border-bottom: 3px solid #fff;
+    padding-bottom: 5px;
+}
+
+/* Modern Card UI */
+.action-card {
+    border: none !important;
+    border-radius: 20px !important;
+    box-shadow: var(--card-shadow);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background: #fff;
+}
+
+.action-card:hover {
+    transform: translateY(-10px);
+    box-shadow: var(--hover-shadow);
+}
+
+.hero-section {
+    background: #fff;
+    border-radius: 24px;
+    box-shadow: var(--card-shadow);
+    border-left: 8px solid var(--primary-blue);
+}
+
+/* Modern Buttons */
+.btn-primary {
+    border-radius: 12px;
+    padding: 10px 24px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: scale(1.02);
+    box-shadow: 0 5px 15px rgba(13, 110, 253, 0.3);
+}
+
+/* Footer Styling */
+footer {
+    background: #fff;
+    padding: 30px 0;
+    margin-top: 50px;
+    border-top: 1px solid #dee2e6;
+}
